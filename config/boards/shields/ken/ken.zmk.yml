@@ -1,0 +1,11 @@
+file_format: "1"
+id: ken
+name: ken
+type: shield
+url: https://github.com/Ken-hobby/test2-zmk-config
+requires: [pro-micro]
+features:
+  - keys
+siblings:
+  - ken_left
+  - ken_right
