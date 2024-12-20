@@ -1,0 +1,51 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#define DEFAULT 0
+#define LOWER  1
+#define RAISE  2
+
+/ {
+       keymap {
+              compatible = "zmk,keymap";
+
+              default_layer {
+
+
+                 bindings = <
+                     &trans     &kp ESC   &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp MINUS    &kp EQUAL   
+                     &trans     &kp TAB   &kp Q    &kp W    &kp E    &kp R     &kp T                        &kp Y     &kp U     &kp I     &kp O      &kp P     &kp LBKT     &kp RBKT
+                     &trans     &kp LCTRL &kp A    &kp S    &kp D    &kp F     &kp G                        &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp APOS     &kp BSLH 
+                     &trans     &kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B                        &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp UP       &kp RSHFT
+                     &mo LOWER  &trans    &kp LWIN &kp LALT  &trans  &kp DEL   &kp SPACE                    &kp BSPC  &kp ENTER &kp ENTER &trans     &kp LEFT  &mo DOWN     &kp RIGHT
+                                                                     &mo LOWER &mo RAISE &trans      &trans &mo LOWER &mo RAISE
+            >;
+          };
+              lower_layer {
+             bindings = <
+                     &trans  &kp GRAVE  &trans   &kp F2   &kp F3   &kp F4   &kp F5                        &kp F6    &kp F7    &kp F8     &kp F9     &kp F10   &trans   &trans
+                     &trans  &kp TAB    &trans   &trans   &trans   &trans   &trans                        &kp N7    &kp N8    &kp N9     &kp SLASH  &trans    &trans   &trans
+                     &trans  &trans     &trans   &trans   &trans   &trans   &trans                        &kp N4    &kp N5    &kp N6     &kp ASTRK  &trans    &trans   &trans 
+                     &trans  &trans     &trans   &trans   &trans   &trans   &trans                        &kp N1    &kp N2    &kp N3     &kp MINUS  &trans    &kp UP   &trans
+                     &trans  &trans     &trans   &trans   &trans   &kp DEL  &kp SPACE                     &kp N0    &kp N0    &kp PERIOD &kp PLUS   &kp LEFT  &mo DOWN &kp RIGHT
+                                                                   &trans   &mo RAISE  &trans    &trans   &kp BSPC  &kp ENTER
+           >;
+
+         };
+
+              raise_layer {
+             bindings = <
+                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &trans                           &trans    &trans    &trans     &trans     &trans    &trans   &trans
+                &trans      &trans        &trans        &trans        &trans        &trans       &trans                           &trans    &trans    &trans     &trans     &trans    &trans   &trans
+                &trans      &trans        &trans        &trans        &trans        &trans       &trans                           &trans    &trans    &trans     &trans     &trans    &trans   &trans 
+                &trans      &trans        &trans        &trans        &trans        &trans       &trans                           &trans    &trans    &trans     &trans     &trans    &trans   &trans
+                &trans      &trans        &trans        &trans        &trans        &trans       &trans                           &trans    &trans    &trans     &trans     &trans    &trans   &trans
+                                                                                    &trans       &trans   &trans        &trans    &trans    &trans
+           >;
+
+         };
+     };
+};
