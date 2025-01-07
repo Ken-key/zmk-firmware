@@ -16,12 +16,12 @@
 
 
                  bindings = <
-                     &kp ESC    &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                         &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp MINUS    &kp EQUAL   
-                     &kp_PSCRN  &kp TAB   &kp Q    &kp W    &kp E    &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O      &kp P     &kp LBKT     &kp RBKT
-                     &kp_PG_UP  &kp LCTRL &kp A    &kp S    &kp D    &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp APOS     &kp BSLH 
-                     &kp_PG_DN  &kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B                          &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp UP       &kp RSHFT
-                     &kp_HOME   &mo LOWER &kp LWIN &kp LALT &k_CUT   &k_COPY    &k_PASTE                      &trans    &trans    &trans    &trans     &kp LEFT  &mo DOWN     &kp RIGHT
-                                                                     &mo LOWER &kp DEL &kp SPACE     &kp BSPC &kp ENTER &mo RAISE
+                     &kp ESC    &kp GRAVE &kp N1   &kp N2   &kp N3    &kp N4     &kp N5                         &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp MINUS    &kp EQUAL   
+                     &kp PSCRN  &kp TAB   &kp Q    &kp W    &kp E     &kp R      &kp T                          &kp Y     &kp U     &kp I     &kp O      &kp P     &kp LBKT     &kp RBKT
+                     &kp PG UP  &kp LCTRL &kp A    &kp S    &kp D     &kp F      &kp G                          &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp APOS     &kp BSLH 
+                     &kp PG DN  &kp LSHFT &kp Z    &kp X    &kp C     &kp V      &kp B                          &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp UP       &kp RSHFT
+                     &kp HOME   &mo LOWER &kp LWIN &kp LALT &kp K_CUT &kp K_COPY &kp K_PASTE                    &trans    &trans    &trans    &trans     &kp LEFT  &mo DOWN     &kp RIGHT
+                                                                      &mo LOWER  &kp DEL &kp SPACE     &kp BSPC &kp ENTER &mo RAISE
             >;
           };
               lower_layer {
