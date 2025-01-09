@@ -20,8 +20,7 @@
                      &kp PSCRN  &kp TAB   &kp Q    &kp W    &kp E     &kp R      &kp T                          &kp Y     &kp U     &kp I     &kp O      &kp P     &kp LBKT     &kp RBKT
                      &kp PG_UP  &kp LCTRL &kp A    &kp S    &kp D     &kp F      &kp G                          &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp APOS     &kp BSLH 
                      &kp PG_DN  &kp LSHFT &kp Z    &kp X    &kp C     &kp V      &kp B                          &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp UP       &kp RSHFT
-                     &kp HOME   &mo LOWER &kp LWIN &kp LALT &kp LC(X) &kp LC(C)  &kp LC(V)                    &trans    &trans    &trans    &trans     &kp LEFT  &kp DOWN     &kp RIGHT 
-o DOWN     &kp RIGHT
+                     &kp HOME   &mo LOWER &kp LWIN &kp LALT &kp LC(X) &kp LC(C)  &kp LC(V)                      &trans    &trans    &trans    &trans     &kp LEFT  &kp DOWN     &kp RIGHT 
                                                                       &mo LOWER  &kp DEL &kp SPACE     &kp BSPC &kp ENTER &mo RAISE
             >;
           };
