@@ -21,7 +21,7 @@
                      &kp PG_UP  &kp LCTRL &kp A    &kp S    &kp D     &kp F      &kp G                          &kp H     &kp J     &kp K      &kp L      &kp SEMI  &kp APOS     &kp BSLH 
                      &kp PG_DN  &kp LSHFT &kp Z    &kp X    &kp C     &kp V      &kp B                          &kp N     &kp M     &kp COMMA  &kp PERIOD &kp SLASH &kp UP       &kp RSHFT
                      &kp HOME   &mo LOWER &kp LWIN &kp LALT &kp LC(X) &kp LC(C)  &kp LC(V)                      &kp LC(Z) &kp LC(X) &kp LC(C)  &kp LC(V)  &kp LEFT  &kp DOWN     &kp RIGHT 
-                                                                      &mo LOWER  &kp DEL &kp SPACE     &kp BSPC &kp ENTER &mo RAISE
+                                                                      &mo LOWER 　&kp SPACE &kp DEL     &kp BSPC &kp ENTER &mo RAISE
             >;
           };
               lower_layer {
