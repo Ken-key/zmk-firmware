@@ -12,31 +12,44 @@
        keymap {
               compatible = "zmk,keymap";
 
- //             default_layer {
+//  default_layer {
+//
+//   bindings = <
+//                   &kp ESC    &kp GRAVE &kp N1      &kp N2    &kp N3     &kp N4     &kp N5                         &kp N6    &kp N7    &kp N8     &kp N9     &kp N0    &kp BSLH     &kp EQUAL   
+//                   &kp PSCRN  &kp TAB   &kp LA(TAB) &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)                      &trans    &trans    &trans     &trans     &kp MINUS &kp LBKT     &kp RBKT
+//                   &kp PG_UP  &kp LCTRL &kp Q       &kp W     &kp E      &kp R      &kp T                          &kp Y     &kp U     &kp I      &kp O      &kp P     &kp SEMI     &kp APOS    
+//                   &kp PG_DN  &kp LSHFT &kp A       &kp S     &kp D      &kp F      &kp G                          &kp H     &kp J     &kp K      &kp L      &kp SLASH &kp UP       &kp RSHFT
+//                   &kp HOME   &kp LWIN  &kp Z       &kp X     &kp C      &kp V      &kp B                          &kp N     &kp M     &kp COMMA  &kp PERIOD &kp LEFT  &kp DOWN     &kp RIGHT 
+//                                                                         &kp DEL    &kp SPACE  &mo LOWER    &mo RAISE &kp BSPC  &kp ENTER
+//          >;
+//        };
 
 
- //                bindings = <
- //                    &kp ESC    &kp GRAVE &kp N1      &kp N2    &kp N3     &kp N4     &kp N5                         &kp N6    &kp N7    &kp N8     &kp N9     &kp N0    &kp BSLH     &kp EQUAL   
- //                    &kp PSCRN  &kp TAB   &kp LA(TAB) &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)                      &trans    &trans    &trans     &trans     &kp MINUS &kp LBKT     &kp RBKT
- //                    &kp PG_UP  &kp LCTRL &kp Q       &kp W     &kp E      &kp R      &kp T                          &kp Y     &kp U     &kp I      &kp O      &kp P     &kp SEMI     &kp APOS    
- //                    &kp PG_DN  &kp LSHFT &kp A       &kp S     &kp D      &kp F      &kp G                          &kp H     &kp J     &kp K      &kp L      &kp SLASH &kp UP       &kp RSHFT
- //                    &kp HOME   &kp LWIN  &kp Z       &kp X     &kp C      &kp V      &kp B                          &kp N     &kp M     &kp COMMA  &kp PERIOD &kp LEFT  &kp DOWN     &kp RIGHT 
- //                                                                          &kp DEL    &kp SPACE  &mo LOWER    &mo RAISE &kp BSPC  &kp ENTER
- //           >;
- //         };
-
-              default_layer {
+ default_layer {
 
 
                  bindings = <
                      &kp ESC    &kp GRAVE &kp N1      &kp N2    &kp N3     &kp N4     &kp N5                         &kp N6    &kp N7    &kp N8     &kp N9     &kp N0    &kp BSLH     &kp EQUAL   
-                     &kp PSCRN  &kp TAB   &kp LA(TAB) &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)                      &trans    &trans    &trans     &trans     &kp SLASH &kp LBKT     &kp RBKT
-                     &kp PG_UP  &kp LCTRL &kp Q       &kp L     &kp U      &kp COMMA  &kp PERIOD                     &kp F     &kp W     &kp R      &kp Y      &kp P     &kp SEMI     &kp APOS    
-                     &kp PG_DN  &kp LSHFT &kp E       &kp I     &kp A      &kp O      &kp MINUS                      &kp K     &kp T     &kp N      &kp S      &kp H     &kp UP       &kp RSHFT
-                     &kp HOME   &kp LWIN  &kp Z       &kp X     &kp C      &kp V      &kp B                          &kp G     &kp D     &kp M      &kp J      &kp B     &kp DOWN     &kp RIGHT 
-                                                                           &mo LOWER  &kp DEL  &kp SPACE       &kp BSPC  &kp ENTER  &mo RAISE
+                     &kp PSCRN  &kp TAB   &kp LA(TAB) &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)                      &kp RALT  &trans    &trans     &kp MINUS  &kp MINUS &kp LBKT     &kp RBKT
+                     &kp PG_UP  &kp LCTRL &kp Q       &kp W     &kp E      &kp R      &kp T                          &kp Y     &kp U     &kp I      &kp O      &kp P     &kp SEMI     &kp APOS    
+                     &kp PG_DN  &kp LSHFT &kp A       &kp S     &kp D      &kp F      &kp G                          &kp H     &kp J     &kp K      &kp L      &kp SLASH &kp UP       &kp RSHFT
+                     &kp HOME   &kp LWIN  &kp Z       &kp X     &kp C      &kp V      &kp B                          &kp N     &kp M     &kp COMMA  &kp PERIOD &kp LEFT  &kp DOWN     &kp RIGHT 
+                                                                           &kp DEL    &kp SPACE  &mo LOWER    &mo RAISE &kp BSPC  &kp ENTER
             >;
           };
+
+ //            default_layer {
+ //
+ //
+ //                bindings = <
+ //                    &kp ESC    &kp GRAVE &kp N1      &kp N2    &kp N3     &kp N4     &kp N5                         &kp N6    &kp N7    &kp N8     &kp N9     &kp N0    &kp BSLH     &kp EQUAL   
+ //                    &kp PSCRN  &kp TAB   &kp LA(TAB) &kp LC(Z) &kp LC(X)  &kp LC(C)  &kp LC(V)                      &trans    &trans    &trans     &trans     &kp SLASH &kp LBKT     &kp RBKT
+ //                    &kp PG_UP  &kp LCTRL &kp Q       &kp L     &kp U      &kp COMMA  &kp PERIOD                     &kp F     &kp W     &kp R      &kp Y      &kp P     &kp SEMI     &kp APOS    
+ //                    &kp PG_DN  &kp LSHFT &kp E       &kp I     &kp A      &kp O      &kp MINUS                      &kp K     &kp T     &kp N      &kp S      &kp H     &kp UP       &kp RSHFT
+ //                    &kp HOME   &kp LWIN  &kp Z       &kp X     &kp C      &kp V      &kp B                          &kp G     &kp D     &kp M      &kp J      &kp B     &kp DOWN     &kp RIGHT 
+ //                                                                          &mo LOWER  &kp DEL  &kp SPACE       &kp BSPC  &kp ENTER  &mo RAISE
+ //           >;
+ //         };
 
               lower_layer {
              bindings = <
@@ -45,7 +58,7 @@
                      &trans  &trans     &trans    &trans    &trans    &trans     &trans                         &kp KP_N4 &kp KP_N5 &kp KP_N6  &kp KP_ASTERISK    &trans    &trans   &trans 
                      &trans  &trans     &trans    &trans    &trans    &trans     &trans                         &kp KP_N1 &kp KP_N2 &kp KP_N3  &kp KP_MINUS       &trans    &kp UP   &trans
                      &trans  &trans     &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V)  &trans                         &kp KP_N0 &kp KP_N0 &kp PERIOD &kp KP_PLUS        &kp LEFT  &kp DOWN &kp RIGHT
-                                                                      &mo LOWER  &kp DEL  &kp SPACE       &kp BSPC  &kp ENTER  &mo RAISE
+                                                                      &kp DEL    &kp SPACE  &mo LOWER    &mo RAISE &kp BSPC  &kp ENTER
            >;
 
          };
